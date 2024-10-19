@@ -23,3 +23,16 @@ The system consists of six tables:
 -  for api, i still tring to make it work.
 
 ---
+## Select Examples
+
+Exp. 1
+SELECT 
+    person.firstname, 
+    person.lastname,  
+    person_role.role 
+FROM 
+    person 
+INNER JOIN 
+    person_role_map ON person.personid = person_role_map.personid 
+INNER JOIN 
+    person_role ON person_role.roleid = person_role_map.roleid; 
