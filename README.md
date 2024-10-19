@@ -25,14 +25,14 @@ The system consists of six tables:
 ---
 ## Select Examples
 
-- Exp. 1
--SELECT 
+- Exp. 1  this query retrieve firstname , lastname and role. from three tables
+- SELECT 
     person.firstname, 
     person.lastname,  
     person_role.role 
-FROM 
+- FROM 
     person 
-INNER JOIN 
+- INNER JOIN 
     person_role_map ON person.personid = person_role_map.personid 
-INNER JOIN 
+- INNER JOIN 
     person_role ON person_role.roleid = person_role_map.roleid; 
