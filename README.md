@@ -1,8 +1,8 @@
-# Restaurant Management System
+# Restaurant
 
 ## Overview
 
-This project addresses a restaurant's issue with the quality of products stored in refrigeration. The owner requested a system that displays essential information on screen and prints stickers with details such as the **item name**, **production date**, **expiration date**, **weight**, and the name of the staff member responsible for the item.
+There is a restaurant has problem isuu whith the quality of products that stores or put it in the refrigerator, so the owner asked of king of system shows on screen and print on stickers details such as the **item name**, **production date**, **expiration date**, **weight**, and the name of the staff member responsible for the item.
 
 ## Database Schema
 
@@ -18,7 +18,8 @@ The system consists of six tables:
 ## Acknowledgments
 
 I utilized [ChatGPT](https://openai.com/chatgpt) to assist with the creation of SQL insert statements for this project.
+i used lecture 8 materials , i attached to it my restaurant database scheme.
+i add to .env.example scheme user name and passweord.
+for api, i still tring to make it work.
 
 ---
-
-For more details, please refer to the [documentation](LINK_TO_DOCUMENTATION).
