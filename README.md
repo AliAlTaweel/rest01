@@ -8,4 +8,4 @@ Tables:
 -item (it represents the products saved of holds in a store),
 -person_role(it contains role and it roleid ),
 -person_role_map(for normalization, between person table and person_roel table),
-
+= i used chatgbt with some inserts.
