@@ -38,14 +38,14 @@ The system consists of six tables:
     person_role ON person_role.roleid = person_role_map.roleid; 
 
 
--Exp.2 fetech the maker lastname, item name , for items stored in store
--SELECT 
+- Exp.2 fetech the maker lastname, item name , for items stored in store
+- SELECT 
       store.itemid, 
       person.lastname,
       item.name
--FROM 
+- FROM 
       store
--INNER JOIN 
+- INNER JOIN 
       item on store.itemid = item.itemid
--INNER JOIN 
+- INNER JOIN 
       person on item.makerid = person.personid
