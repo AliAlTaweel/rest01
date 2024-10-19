@@ -25,7 +25,8 @@ The system consists of six tables:
 ---
 ## Select Examples
 
-- Exp. 1  this query retrieve firstname , lastname and role. from three tables using inner join:
+### Exp. 1
+- this query retrieve firstname , lastname and role. from three tables using inner join:
 - SELECT 
     person.firstname, 
     person.lastname,  
