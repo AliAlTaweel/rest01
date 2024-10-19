@@ -17,9 +17,9 @@ The system consists of six tables:
 
 ## Acknowledgments
 
--**-**- I utilized [ChatGPT](https://openai.com/chatgpt) to assist with the creation of SQL insert statements for this project.
--**-**- i used lecture 8 materials , i attached to it my restaurant database scheme.
--**-**- i add to .env.example scheme user name and passweord.
--**-**-for api, i still tring to make it work.
+- **-**: I utilized [ChatGPT](https://openai.com/chatgpt) to assist with the creation of SQL insert statements for this project.
+-**-**: i used lecture 8 materials , i attached to it my restaurant database scheme.
+-**-**: i add to .env.example scheme user name and passweord.
+-**-**: for api, i still tring to make it work.
 
 ---
