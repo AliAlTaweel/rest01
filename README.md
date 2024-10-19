@@ -26,7 +26,7 @@ The system consists of six tables:
 ## Select Examples
 
 - Exp. 1
-SELECT 
+-SELECT 
     person.firstname, 
     person.lastname,  
     person_role.role 
