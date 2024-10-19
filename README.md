@@ -25,7 +25,7 @@ The system consists of six tables:
 ---
 ## Select Examples
 
--Exp. 1
+- Exp. 1
 SELECT 
     person.firstname, 
     person.lastname,  
