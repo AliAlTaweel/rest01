@@ -1,6 +1,6 @@
 ## Restaurant
 ## Overview
-There is a restaurant has problem isuu whith the quality of products that stores or put it in the refrigerator, so the owner asked of king of system shows on screen and print on stickers details such as the item name, production date, expiration date, weight, and the name of the staff member responsible for the item.
+This system addresses a problem the restaurant has with maintaining the quality of products stored in the refrigerator or storage. The owner requested a system that displays product details on-screen and prints them on stickers, including the item name, production date, expiration date, weight, and the name of the responsible staff member.
 
 ## Database Schema
 The system consists of six tables:
@@ -15,7 +15,7 @@ The system consists of six tables:
 - I utilized ChatGPT to assist with the creation of SQL insert statements for this project.
 - i attached to it my restaurant database scheme.
 - i add to .env scheme user name and passweord.
-- for api, i still tring to make it work, is used fastify nodejs .
+- for api, i used fastify nodejs, till this moment its only retreive data from database, i got output from the next two queries.
 ## Select Examples
 - Exp. 1
 this query retrieve firstname , lastname and role. from three tables using inner join:
