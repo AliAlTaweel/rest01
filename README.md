@@ -13,7 +13,7 @@ person_role_map: Facilitates normalization between the person and person_role ta
 receipt: Intended to contain raw materials; however, it is currently not utilized.
 ## Acknowledgments
 I utilized ChatGPT to assist with the creation of SQL insert statements for this project.
-i used lecture 8 materials , i attached to it my restaurant database scheme.
+i attached to it my restaurant database scheme.
 i add to .env.example scheme user name and passweord.
 for api, i still tring to make it work.
 ## Select Examples
