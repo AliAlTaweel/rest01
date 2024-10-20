@@ -22,20 +22,14 @@ this query retrieve firstname , lastname and role. from three tables using inner
 
           SELECT person.firstname, person.lastname,
           person_role.role
-
-FROM person
-
-INNER JOIN person_role_map ON person.personid = person_role_map.personid
-
-INNER JOIN person_role ON person_role.roleid = person_role_map.roleid;
+          FROM person
+          INNER JOIN person_role_map ON person.personid = person_role_map.personid
+          INNER JOIN person_role ON person_role.roleid = person_role_map.roleid;
 
 - Exp.2
 fetech the maker lastname, item name , for items stored in store
 
-SELECT store.itemid, person.lastname, item.name
-
-FROM store
-
-INNER JOIN item on store.itemid = item.itemid
-
-INNER JOIN person on item.makerid = person.personid
+          SELECT store.itemid, person.lastname, item.name
+          FROM store
+          INNER JOIN item on store.itemid = item.itemid
+          INNER JOIN person on item.makerid = person.personid
