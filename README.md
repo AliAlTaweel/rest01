@@ -20,8 +20,8 @@ for api, i still tring to make it work.
 - Exp. 1
 this query retrieve firstname , lastname and role. from three tables using inner join:
 
-SELECT person.firstname, person.lastname,
-person_role.role
+          SELECT person.firstname, person.lastname,
+          person_role.role
 
 FROM person
 
@@ -29,7 +29,7 @@ INNER JOIN person_role_map ON person.personid = person_role_map.personid
 
 INNER JOIN person_role ON person_role.roleid = person_role_map.roleid;
 
-Exp.2
+- Exp.2
 fetech the maker lastname, item name , for items stored in store
 
 SELECT store.itemid, person.lastname, item.name
