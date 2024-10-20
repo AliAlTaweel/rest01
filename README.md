@@ -17,7 +17,7 @@ i used lecture 8 materials , i attached to it my restaurant database scheme.
 i add to .env.example scheme user name and passweord.
 for api, i still tring to make it work.
 ## Select Examples
-Exp. 1
+-Exp. 1
 this query retrieve firstname , lastname and role. from three tables using inner join:
 
 SELECT person.firstname, person.lastname,
