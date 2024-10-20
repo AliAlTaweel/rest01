@@ -5,7 +5,7 @@ There is a restaurant has problem isuu whith the quality of products that stores
 ## Database Schema
 The system consists of six tables:
 
-__store: Represents the refrigerator or any kind of storage.
+__ store: Represents the refrigerator or any kind of storage.
 - person: Contains the names and IDs of all staff members.
 item: Represents the products stored in the store.
 person_role: Contains roles and their associated IDs.
