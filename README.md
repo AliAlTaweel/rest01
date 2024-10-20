@@ -1,4 +1,4 @@
-## Restaurant
+## Restaurant Inventory Management System
 ## Overview
 This system addresses a problem the restaurant has with maintaining the quality of products stored in the refrigerator or storage. The owner requested a system that displays product details on-screen and prints them on stickers, including the item name, production date, expiration date, weight, and the name of the responsible staff member.
 
