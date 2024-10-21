@@ -26,6 +26,7 @@ this query retrieve firstname , lastname and role. from three tables using inner
           FROM person
           INNER JOIN person_role_map ON person.personid = person_role_map.personid
           INNER JOIN person_role ON person_role.roleid = person_role_map.roleid;
+  the api url for this query 
 
 - Exp.2
 fetech the maker lastname, item name , for items stored in store
