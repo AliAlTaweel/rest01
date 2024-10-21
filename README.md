@@ -13,20 +13,19 @@ The system consists of six tables:
 - **person_role_map**: Facilitates normalization between the person and person_role tables.
 - **receipt**: Intended to contain raw materials; however, it is currently not utilized.
 ## Acknowledgments
-- I utilized ChatGPT to assist with the creation of SQL insert statements for this project.
+- I used ChatGPT to assist with the creation of SQL insert statements for this project, and in other parts too.
 - i attached to it my restaurant database scheme.
-- i add to .env scheme user name and passweord.
+- i add to .env scheme user name, password, port:3001 .
 - for api, i used fastify nodejs, till this moment its only retreive data from database, i got output from the next two queries.
 ## Select Examples
 - Exp. 1
 this query retrieve firstname , lastname and role. from three tables using inner join:
 
-          SELECT person.firstname, person.lastname,
-          person_role.role
+          SELECT person.firstname, person.lastname, person_role.role
           FROM person
           INNER JOIN person_role_map ON person.personid = person_role_map.personid
           INNER JOIN person_role ON person_role.roleid = person_role_map.roleid;
-  the api url for this query 
+ **route : api url " http://localhost:3001/api/personrole "**
 
 - Exp.2
 fetech the maker lastname, item name , for items stored in store
@@ -35,3 +34,4 @@ fetech the maker lastname, item name , for items stored in store
           FROM store
           INNER JOIN item on store.itemid = item.itemid
           INNER JOIN person on item.makerid = person.personid
+ **route: api url  " http://localhost:3001/itemMaker "**
