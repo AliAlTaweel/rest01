@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Compiled files
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Mac OS-specific files
+.DS_Store
+
+# Editor folders and files
+.vscode/
+.idea/
+*.swp
+
+# Test Coverage
+coverage/
