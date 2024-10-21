@@ -34,4 +34,4 @@ fetech the maker lastname, item name , for items stored in store
           FROM store
           INNER JOIN item on store.itemid = item.itemid
           INNER JOIN person on item.makerid = person.personid
- **route: api url  " http://localhost:3001/itemMaker "**
+ **route: api url  " http://localhost:3001/itemmaker "**
