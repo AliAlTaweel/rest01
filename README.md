@@ -15,7 +15,6 @@ The system consists of six tables:
 ## Acknowledgments
 - I used ChatGPT to assist with the creation of SQL insert statements for this project, and in other parts too.
 - i attached to it my restaurant database scheme.
-- i add to .env scheme user name, password, port:3001 .
 - for api, i used fastify ,node, nodemon and kysley, Upto this moment its only retreive data from database, i got output from the next two queries.
 ## Select Examples
 - Exp. 1
